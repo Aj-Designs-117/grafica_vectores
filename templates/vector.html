@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h1>GRAFICA A MOSTRAR</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                   <form action="">
+                        <h1 class="text-center">Escriba sus valores</h1>
+                        <div class="form-group">
+                            <label for="vectorX" class="form-label">Vector X</label>
+                            <input type="text" name="VX" id="vectorX" class="form-control" placeholder="Escriba el valor">
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="vectorY" class="form-label">Vector Y</label>
+                            <input type="text" name="VY" id="vectorY" class="form-control" placeholder="Escriba el valor">
+                        </div>
+                        <div class="form-group">
+                            <label for="vectorZ" class="form-label">Vector Y</label>
+                            <input type="text" name="VZ" id="vectorZ" class="form-control" placeholder="Escriba el valor">
+                        </div>
+                        <div class="d-grid gap-2 mt-4">
+                            <button class="btn btn-success" type="button">Calcular</button>
+                        </div>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
