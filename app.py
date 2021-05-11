@@ -77,7 +77,7 @@ def calcAreaParalelo(Base, Height, label6):
 
 # VENTANA PARA GRAFICAR UN VECTOR
 def openVector():
-    root.withdraw()
+    root.iconify()
     win1 = Toplevel()
     win1.geometry('500x350')
     win1.title("Area del Vector")
@@ -150,7 +150,7 @@ def openVector():
     
 
 def openParalelo():
-    root.withdraw()
+    root.iconify()
     win2 = Toplevel()
     win2.geometry('520x350')
     win2.title("Area del Paralelogramo")
